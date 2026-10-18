@@ -1,31 +1,31 @@
 import React from 'react';
-import { Layout, Server, BarChart3, CheckCircle2 } from 'lucide-react';
+import { Cpu, Server, BarChart3, CheckCircle2 } from 'lucide-react';
 
 const skillsData = [
   {
-    category: 'Fullstack & Web',
-    icon: Layout,
+    category: 'Machine Learning & AI',
+    icon: Cpu,
     iconColor: 'text-pink-600',
     barColor: 'bg-pink-500',
     glowColor: 'rgba(236, 72, 153, 0.4)',
     skills: [
-      { name: 'React', level: 90 },
-      { name: 'JavaScript', level: 88 },
-      { name: 'HTML & CSS', level: 95 },
-      { name: 'Node.js & Express', level: 82 },
+      { name: 'Python & Scikit-learn', level: 90 },
+      { name: 'Machine Learning Models', level: 88 },
+      { name: 'FastAPI & ML APIs', level: 82 },
+      { name: 'Computer Vision & NLP', level: 85 },
     ]
   },
   {
-    category: 'Backend & Data Engineering',
+    category: 'Data Engineering & Architecture',
     icon: Server,
     iconColor: 'text-teal-600',
     barColor: 'bg-teal-600',
     glowColor: 'rgba(13, 148, 136, 0.4)',
     skills: [
-      { name: 'SQL & MySQL', level: 85 },
-      { name: 'Python', level: 80 },
-      { name: 'Java', level: 78 },
-      { name: 'Database Architecture', level: 84 },
+      { name: 'SQL & MySQL', level: 88 },
+      { name: 'Database Architecture', level: 85 },
+      { name: 'ETL & Data Pipelines', level: 82 },
+      { name: 'Python & Pandas', level: 88 },
     ]
   },
   {
@@ -35,10 +35,10 @@ const skillsData = [
     barColor: 'bg-stone-700',
     glowColor: 'rgba(45, 45, 45, 0.2)',
     skills: [
-      { name: 'Tableau', level: 80 },
-      { name: 'Power BI', level: 75 },
-      { name: 'Data Preprocessing', level: 85 },
-      { name: 'GitHub & Version Control', level: 90 },
+      { name: 'Tableau & Power BI', level: 85 },
+      { name: 'Exploratory Data Analysis (EDA)', level: 88 },
+      { name: 'Data Preprocessing & Cleaning', level: 90 },
+      { name: 'Statistical Insights & Reporting', level: 84 },
     ]
   }
 ];

@@ -4,9 +4,9 @@ import { Github, Linkedin } from '../components/Icons';
 import heroImg from '../assets/hero.jpg';
 
 const roles = [
-  'Fullstack Developer',
   'Data Analyst',
   'Data Engineer',
+  'ML Engineer',
 ];
 
 const Hero = () => {
@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
             
             <p className="text-[#5c544d] text-lg md:text-xl font-poppins max-w-xl leading-relaxed font-light">
-              Turning ideas into scalable applications and data insights. Specializing in Fullstack development, Data Analytics, and Data Engineering.
+              Turning ideas into scalable data pipelines and intelligent insights. Specializing in Data Analytics, Data Engineering, and Machine Learning.
             </p>
           </div>
 
@@ -192,8 +192,8 @@ const Hero = () => {
                 <Database size={16} />
               </div>
               <div className="text-left">
-                <span className="text-[9px] text-teal-800 uppercase tracking-widest block font-bold">Fullstack</span>
-                <span className="text-xs text-stone-800 font-bold">Developer</span>
+                <span className="text-[9px] text-teal-800 uppercase tracking-widest block font-bold">ML & Data</span>
+                <span className="text-xs text-stone-800 font-bold">Engineer</span>
               </div>
             </div>
 

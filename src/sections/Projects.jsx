@@ -25,18 +25,18 @@ const projectsData = [
   {
     id: 'spam-detection',
     title: 'Spam Detection',
-    category: 'Full Stack',
-    subCategories: ['Full Stack', 'Machine Learning'],
-    description: 'A responsive web application designed to help users identify and manage suspicious or unwanted messages through a simple and interactive interface.',
+    category: 'Machine Learning',
+    subCategories: ['Machine Learning', 'Data Analytics'],
+    description: 'A responsive machine learning web application designed to help users identify and classify suspicious or unwanted messages with high accuracy.',
     features: [
       'Clean and responsive user interface',
       'Message input and spam checking interface',
       'Instant result display',
       'User-friendly interactive design'
     ],
-    tech: ['React.js', 'JavaScript', 'HTML', 'CSS'],
+    tech: ['Python', 'Scikit-learn', 'NLP', 'React.js'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/mathisurya520-hash',
+    githubUrl: 'https://github.com/mathisurya520-hash/Spam-Detection',
     isPlayable: false,
     featured: false
   },
@@ -54,7 +54,7 @@ const projectsData = [
     ],
     tech: ['Python', 'Pandas', 'Excel', 'Tableau'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/mathisurya520-hash',
+    githubUrl: 'https://github.com/mathisurya520-hash/google_playstore_analysis',
     isPlayable: false,
     featured: true
   },
@@ -72,7 +72,7 @@ const projectsData = [
     ],
     tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Tableau'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/mathisurya520-hash',
+    githubUrl: 'https://github.com/mathisurya520-hash/Customer-Segmentation-Analysis-Dashboard',
     isPlayable: false,
     featured: false
   },
@@ -108,7 +108,7 @@ const projectsData = [
     ],
     tech: ['Python', 'Pandas', 'NumPy', 'Matplotlib'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/mathisurya520-hash',
+    githubUrl: 'https://github.com/mathisurya520-hash/CodeAlpha_UnemploymentAnalysis',
     isPlayable: false,
     featured: false
   },
@@ -126,7 +126,7 @@ const projectsData = [
     ],
     tech: ['Python', 'NumPy', 'Pandas', 'Scikit-learn', 'Machine Learning'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/mathisurya520-hash',
+    githubUrl: 'https://github.com/mathisurya520-hash/CodeAlpha_IrisFlowerClassification',
     isPlayable: false,
     featured: false
   },
@@ -144,7 +144,7 @@ const projectsData = [
     ],
     tech: ['Excel', 'SQL', 'Python', 'Pandas', 'Tableau'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/mathisurya520-hash',
+    githubUrl: 'https://github.com/mathisurya520-hash/CodeAlpha_EducationalPerformanceDashboard',
     isPlayable: false,
     featured: false
   },
@@ -169,8 +169,8 @@ const projectsData = [
   {
     id: 'neuro-xo',
     title: 'NeuroXO - Playable AI Game',
-    category: 'Full Stack',
-    subCategories: ['AI & Computer Vision', 'Full Stack'],
+    category: 'AI & Game Engine',
+    subCategories: ['AI & Computer Vision', 'Machine Learning'],
     description: 'AI-powered futuristic Tic-Tac-Toe game featuring AI opponent, multiple difficulty levels, voice interaction, score tracking, statistics dashboard, and interactive UI.',
     features: [
       'AI gameplay with Easy / Medium / Hardcore modes',
@@ -183,10 +183,154 @@ const projectsData = [
     githubUrl: 'https://github.com/mathisurya520-hash',
     isPlayable: true,
     featured: false
+  },
+  {
+    id: 'festivo',
+    title: 'Festivo',
+    category: 'Data Engineering',
+    subCategories: ['Data Engineering'],
+    description: 'An event management website that allows users to create events, receive notifications, manage schedules, and organize events efficiently.',
+    features: [
+      'Event creation and schedule organization',
+      'Automated notification and alert system',
+      'Interactive event calendar management',
+      'Streamlined database and coordination workflow'
+    ],
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: '#',
+    githubUrl: 'https://github.com/mathisurya520-hash',
+    isPlayable: false,
+    featured: false
+  },
+  {
+    id: 'opportunity-platform',
+    title: 'AI-Powered Opportunity Platform',
+    category: 'AI & Data Systems',
+    subCategories: ['AI & Computer Vision', 'Data Engineering'],
+    description: 'An AI-powered platform that helps students discover relevant internships and scholarships, making it easier to explore academic and career opportunities.',
+    features: [
+      'AI-driven internship & scholarship recommendations',
+      'Personalized academic & career discovery',
+      'Student profile and opportunity matching',
+      'Deadline alerts and application tracking'
+    ],
+    tech: ['React', 'Node.js', 'Firebase', 'MySQL'],
+    demoUrl: '#',
+    githubUrl: 'https://github.com/mathisurya520-hash',
+    isPlayable: false,
+    featured: true
+  },
+  {
+    id: 'sm-fashion',
+    title: 'SM-Fashion',
+    category: 'Data Engineering',
+    subCategories: ['Data Engineering'],
+    description: 'A boutique e-commerce website inspired by online shopping platforms like Flipkart, featuring fashion products and a convenient shopping experience.',
+    features: [
+      'Boutique fashion catalog and product filtering',
+      'Cart, wishlist, and checkout workflow',
+      'Flipkart-inspired responsive shopping experience',
+      'Secure Node.js & MongoDB backend architecture'
+    ],
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: '#',
+    githubUrl: 'https://github.com/mathisurya520-hash',
+    isPlayable: false,
+    featured: false
+  },
+  {
+    id: 'dorm-desk',
+    title: 'Dorm Desk',
+    category: 'Data Engineering',
+    subCategories: ['Data Engineering'],
+    description: 'A hostel complaint management system designed for college students, with separate student and admin portals to submit complaints, track issues, and manage resolutions.',
+    features: [
+      'Dedicated student and admin management portals',
+      'Complaint submission and real-time status tracking',
+      'Resolution management and issue escalation workflow',
+      'Role-based secure authentication and dashboards'
+    ],
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: '#',
+    githubUrl: 'https://github.com/mathisurya520-hash/DormDesk',
+    isPlayable: false,
+    featured: false
+  },
+  {
+    id: 'datasense-ai',
+    title: 'DataSense AI — Intelligence & Data Analyst Assistant',
+    category: 'AI & Analytics',
+    subCategories: ['Data Analytics', 'AI & Computer Vision', 'Dashboard', 'Data Engineering'],
+    description: 'An AI-powered data analysis assistant that helps analysts correct SQL queries, generate queries, understand data, and build insightful dashboards.',
+    features: [
+      'Automated SQL query generation & syntax correction',
+      'Natural language dataset understanding & exploration',
+      'Insightful data interpretation & recommendations',
+      'Dashboard-ready analytics with Tableau support'
+    ],
+    tech: ['React', 'Python', 'SQL', 'Tableau'],
+    demoUrl: '#',
+    githubUrl: 'https://github.com/mathisurya520-hash/DataSense-AI',
+    isPlayable: false,
+    featured: true
+  },
+  {
+    id: 'speakwise-ai',
+    title: 'SpeakWise-AI',
+    category: 'AI Platform',
+    subCategories: ['AI & Computer Vision', 'Machine Learning'],
+    description: 'An AI-powered communication platform featuring speech analysis, public speaking practice, email assistance, group discussions, presentation evaluation, mock interviews, and debate practice.',
+    features: [
+      'Real-time speech analysis & evaluation',
+      'Public speaking and debate practice modules',
+      'AI email assistance & communication coaching',
+      'Mock interviews & group discussion assessments'
+    ],
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+    demoUrl: 'https://speakwiseai-comm.onrender.com',
+    githubUrl: 'https://github.com/mathisurya520-hash/SpeakwiseAi',
+    isPlayable: false,
+    featured: true
+  },
+  {
+    id: 'sheshield-app',
+    title: 'SheShield App',
+    category: 'Mobile & Cloud Systems',
+    subCategories: ['AI & Computer Vision', 'Data Engineering'],
+    description: 'A women’s safety application designed to detect configured distress phrases in the background and trigger SOS alerts with notifications to the designated administrator.',
+    features: [
+      'Background voice detection for configured distress phrases',
+      'Instant emergency SOS trigger and location sharing',
+      'Real-time push notifications to designated administrator',
+      'Flutter mobile client backed by Firebase & Node.js'
+    ],
+    tech: ['Flutter', 'Node.js', 'Firebase'],
+    demoUrl: '#',
+    githubUrl: 'https://github.com/mathisurya520-hash',
+    isPlayable: false,
+    featured: true
+  },
+  {
+    id: 'aeroforecast-ai',
+    title: 'AeroForecast AI',
+    category: 'Machine Learning',
+    subCategories: ['Machine Learning', 'Data Analytics', 'Data Engineering'],
+    description: 'An AI-based air quality forecasting system that predicts NO₂ and O₃ pollutant levels and analyzes pollution trends using weather forecasts and historical environmental data.',
+    features: [
+      'Predictive modeling for NO₂ and O₃ pollutant levels',
+      'Weather forecasts and historical data integration',
+      'Environmental trend analysis & visualization',
+      'FastAPI backend with interactive React interface'
+    ],
+    tech: ['Python', 'FastAPI', 'React', 'Scikit-learn', 'Machine Learning'],
+    demoUrl: 'https://aeroforecast-ai-pollution-forecasting.onrender.com/',
+    githubUrl: 'https://github.com/mathisurya520-hash/AeroForecast-AI',
+    isPlayable: false,
+    featured: true
   }
 ];
 
-const tabs = ['All', 'Data Analytics', 'Machine Learning', 'Dashboard', 'AI & Computer Vision', 'Full Stack'];
+const tabs = ['All', 'Data Analytics', 'Data Engineering', 'Machine Learning', 'Dashboard', 'AI & Computer Vision'];
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState('All');
@@ -214,7 +358,7 @@ const Projects = () => {
           
           {/* Tagline */}
           <p className="text-stone-500 font-poppins max-w-sm mt-4 md:mt-0 text-sm md:text-base leading-relaxed font-light">
-            A curated portfolio of Data Analytics, Machine Learning, Computer Vision, and Fullstack Engineering projects.
+            A curated portfolio of Data Analytics, Machine Learning, Data Engineering, and AI-driven predictive systems.
           </p>
         </div>
 

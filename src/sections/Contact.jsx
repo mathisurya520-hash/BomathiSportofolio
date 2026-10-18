@@ -50,7 +50,7 @@ const Contact = () => {
             <div className="space-y-4 text-left">
               <h3 className="text-2xl font-space font-bold text-[#2d2722] tracking-wide">Let’s engineer something incredible.</h3>
               <p className="text-stone-500 font-poppins text-sm leading-relaxed max-w-sm font-light">
-                Have an idea, project, or full-time development position? Send a message and let's start negotiating parameters.
+                Have an idea, project, or role in Data Analytics, Data Engineering, or Machine Learning? Send a message and let's discuss possibilities.
               </p>
             </div>
 

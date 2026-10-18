@@ -90,13 +90,13 @@ const About = () => {
                 Bomathi S, Computer Science Engineering Student
               </h3>
               <p className="text-stone-600 font-poppins leading-relaxed font-light">
-                I’m Bomathi S, a Computer Science Engineering student at <strong className="text-teal-700 font-semibold">Sri Shakthi Institute of Engineering and Technology</strong> with strong interests in Fullstack Development, Data Analytics, Data Engineering, and modern web applications.
+                I’m Bomathi S, a Computer Science Engineering student at <strong className="text-teal-700 font-semibold">Sri Shakthi Institute of Engineering and Technology</strong> with strong interests in Data Analytics, Data Engineering, Machine Learning, and intelligent data systems.
               </p>
               <p className="text-stone-600 font-poppins leading-relaxed font-light">
-                I enjoy building scalable, data-driven applications, robust pipelines, and responsive web platforms.
+                I enjoy building scalable data pipelines, predictive models, interactive analytical dashboards, and robust database architectures.
               </p>
               <p className="text-stone-600 font-poppins leading-relaxed font-light">
-                My goal is to excel as a Fullstack Developer and Data Engineer specializing in scalable systems, database architectures, and data analytics.
+                My goal is to excel as a Data Analyst, Data Engineer, and ML Engineer specializing in end-to-end data pipelines, predictive modeling, and business intelligence analytics.
               </p>
             </div>
 
